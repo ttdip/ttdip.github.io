@@ -4,3 +4,26 @@ table, th, td {
     padding: 3px; 
     empty-cells: show;
 }
+
+body {
+    font-family: Verdana;
+}
+
+.navBar a:hover {
+    background-color: yellow;
+}
+
+.navBar a {
+    color: white;
+}
+.navBar {
+    position: sticky;
+    top: 0px;
+    background-color: black;
+}
+
+footer {
+    position: sticky;
+    bottom: 0px;
+    background-color: white;
+}
